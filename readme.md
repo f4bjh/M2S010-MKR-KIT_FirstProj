@@ -9,15 +9,15 @@ Based on : https://github.com/tstana/M2S010-MKR-KIT_FirstProj/wiki with some tro
 
 My system :
 
-$ lsb_release -a
-No LSB modules are available.
-Distributor ID:	Debian
-Description:	Debian GNU/Linux 10 (buster)
-Release:	10
-Codename:	buster
+  $ lsb_release -a
+  No LSB modules are available.
+  Distributor ID:	Debian
+  Description:	Debian GNU/Linux 10 (buster)
+  Release:	10
+  Codename:	buster
 
-$ uname -a
-Linux f4bjh-dell 4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64 GNU/Linux
+  $ uname -a
+  Linux f4bjh-dell 4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64 GNU/Linux
 
 ==================================================================
 
