@@ -19,6 +19,7 @@ $ uname -a
 Linux f4bjh-dell 4.19.0-18-amd64 #1 SMP Debian 4.19.208-1 (2021-09-29) x86_64 GNU/Linux
 
 ==================================================================
+
 Needed installation :
 
 -Libero_SoC_v2021.3_lin.bin from https://download-soc.microsemi.com/FPGA/v2021.3/prod/Libero_SoC_v2021.3_lin.bin
@@ -30,6 +31,7 @@ Linux_Licensing_Daemon from https://www.microsemi.com/document-portal/doc_downlo
 Get a License.dat file (based on MAC adress of my wireless connection) from https://www.microchipdirect.com/fpga-software-products
 
 ==================================================================
+
 1/Install Libero as described here : https://www.cnx-software.com/2021/10/25/installing-libero-soc-in-ubuntu-and-windows-10/
 Choose "Both" for Libero SoC and setup License Installation
 
