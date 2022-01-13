@@ -1,0 +1,160 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03M-SP1
+Install: /home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro
+OS: Debian GNU/Linux 10 (buster)
+Hostname: f4bjh-dell
+max virtual memory: unlimited (bytes)
+max user processes: 15177
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+#### START OF AREA REPORT #####[
+
+Part:			M2S010VF400-1 (Microchip)
+
+---------------------------------------------------------------------------
+########   Utilization report for  Top level view:   test_system   ########
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block test_system:	3 (10.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block test_system:	4 (14.29 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block test_system:	1 (3.57 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       8                  100 %                
+=================================================
+Total IO PADS in the block test_system:	8 (28.57 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   test_system_sb   ########
+Instance path:   test_system.test_system_sb                         
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block test_system.test_system_sb:	3 (10.71 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     4                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block test_system.test_system_sb:	4 (14.29 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block test_system.test_system_sb:	1 (3.57 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       3                  37.5 %               
+=================================================
+Total IO PADS in the block test_system.test_system_sb:	3 (10.71 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z1   ########
+Instance path:   test_system_sb.CoreResetP_Z1                      
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      3                  100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block test_system_sb.CoreResetP_Z1:	3 (10.71 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   test_system_sb_CCC_0_FCCC   ########
+Instance path:   test_system_sb.test_system_sb_CCC_0_FCCC                      
+===============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block test_system_sb.test_system_sb_CCC_0_FCCC:	1 (3.57 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block test_system_sb.test_system_sb_CCC_0_FCCC:	1 (3.57 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   test_system_sb_FABOSC_0_OSC   ########
+Instance path:   test_system_sb.test_system_sb_FABOSC_0_OSC                      
+=================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block test_system_sb.test_system_sb_FABOSC_0_OSC:	1 (3.57 % Utilization)
+
+------------------------------------------------------------------------
+########   Utilization report for  cell:   test_system_sb_MSS   ########
+Instance path:   test_system_sb.test_system_sb_MSS                      
+========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  25 %                 
+======================================================
+Total COMBINATIONAL LOGIC in the block test_system_sb.test_system_sb_MSS:	1 (3.57 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       3                  37.5 %               
+=================================================
+Total IO PADS in the block test_system_sb.test_system_sb_MSS:	3 (10.71 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

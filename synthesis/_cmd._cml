@@ -1,0 +1,1 @@
+-link -encrypt -top test_system -osyn /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_comp.srs /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/layer0.srs  -jobname linker  

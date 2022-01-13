@@ -1,0 +1,60 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_comp.srs|-top|test_system|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-actel|-I|/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/|-I|/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib|-sysv|-devicelib|/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/linux_a_64/c_ver":1636456492
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":1636456487
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/vlog/hypermods.v":1636456489
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/vlog/umr_capim.v":1636456489
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/vlog/scemi_objects.v":1636456489
+#CUR:"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/vlog/scemi_pipes.svh":1636456489
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v":1641995992
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1641995992
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.v":1641995991
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps.v":1641995997
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v":1641995997
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v":1641995984
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS.v":1641995985
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v":1641995997
+#CUR:"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/test_system.v":1641996429
+0			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v" verilog
+1			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v" verilog
+2			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.v" verilog
+3			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps.v" verilog
+4			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v" verilog
+5			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v" verilog
+6			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS.v" verilog
+7			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v" verilog
+8			"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/test_system.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 5
+7 6 4 1 2
+8 7
+#Dependency Lists(Users Of)
+0 1
+1 7
+2 7
+3 4
+4 7
+5 6
+6 7
+7 8
+8 -1
+#Design Unit to File Association
+module work test_system 8
+module work test_system_sb 7
+module work test_system_sb_MSS 6
+module work MSS_010 5
+module work test_system_sb_FABOSC_0_OSC 4
+module work XTLOSC_FAB 3
+module work RCOSC_25_50MHZ_FAB 3
+module work RCOSC_1MHZ_FAB 3
+module work XTLOSC 3
+module work RCOSC_25_50MHZ 3
+module work RCOSC_1MHZ 3
+module work test_system_sb_CCC_0_FCCC 2
+module work CoreResetP 1
+module work coreresetp_pcie_hotreset 0

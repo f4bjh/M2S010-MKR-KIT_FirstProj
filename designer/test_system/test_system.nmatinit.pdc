@@ -1,0 +1,41 @@
+# Microsemi Physical design constraints file
+
+# Version: 2021.3 2021.3.0.10
+
+# Design Name: test_system 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: -1 
+
+# Date generated: Wed Jan 12 17:42:38 2022 
+
+
+#
+# I/O constraints
+#
+
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname 117 -fixed no
+set_io GPIO_1_M2F -DIRECTION OUTPUT -pinname 118 -fixed no
+set_io GPIO_2_M2F -DIRECTION OUTPUT -pinname 122 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname 123 -fixed no
+set_io GPIO_4_M2F -DIRECTION OUTPUT -pinname 125 -fixed no
+set_io GPIO_5_OUT -DIRECTION OUTPUT -pinname 101 -fixed no
+set_io GPIO_6_OUT -DIRECTION OUTPUT -pinname 102 -fixed no
+set_io GPIO_7_OUT -DIRECTION OUTPUT -pinname 103 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location test_system_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 396 92
+set_location test_system_sb_0/CORERESETP_0/RESET_N_F2M_int -fixed no 405 22
+set_location test_system_sb_0/CCC_0/GL0_INST -fixed no 220 54
+set_location test_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 399 22
+set_location ip_interface_inst -fixed no 191 0
+set_location test_system_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 218 102
+set_location test_system_sb_0/CORERESETP_0/sm1_areset_n_q1 -fixed no 401 22
+set_location test_system_sb_0/CCC_0/CCC_INST -fixed no 390 92
+set_location test_system_sb_0/SYSRESET_POR -fixed no 396 8
+set_location test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST -fixed no 300 104
+set_location test_system_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 218 21

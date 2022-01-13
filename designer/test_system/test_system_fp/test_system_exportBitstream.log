@@ -1,0 +1,27 @@
+Software Version: 2021.3.0.10
+Opened '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system_fp/test_system.pro'
+PDB file '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system.pdb' has been loaded successfully.
+DESIGN : test_system;  CHECKSUM : 0DEB;  PDB_VERSION : 1.9
+Info: Programming Interface selected is JTAG.
+File/Folder '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.stp' will be overwritten.
+Successfully exported STAPL file: '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.stp'; file programs Fabric.
+Fabric component bitstream digest: 28a48c7472c9fba2ede53d6cae896281e549ac37da9bdce8eab133fd901a4121
+Entire bitstream digest: e909bd92c8303a0e57b44d53f5b25d2ac4a286523046149e29baa502b1c1d7be
+Finished: Thu Jan 13 09:11:31 2022 (Elapsed time 00:00:06)
+
+Info: Programming Interface selected is JTAG.
+File/Folder '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.ppd' will be overwritten.
+Successfully exported PPD file for currently secured device: '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.ppd'; file programs Fabric.
+Fabric component bitstream digest: 28a48c7472c9fba2ede53d6cae896281e549ac37da9bdce8eab133fd901a4121
+Entire bitstream digest: e909bd92c8303a0e57b44d53f5b25d2ac4a286523046149e29baa502b1c1d7be
+Finished: Thu Jan 13 09:11:38 2022 (Elapsed time 00:00:07)
+
+Info: Programming Interface selected is JTAG.
+File/Folder '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.dat' will be overwritten.
+Successfully exported DirectC file: '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/export/test_system.dat'; file programs Fabric.
+Fabric component bitstream digest: 28a48c7472c9fba2ede53d6cae896281e549ac37da9bdce8eab133fd901a4121
+Entire bitstream digest: e909bd92c8303a0e57b44d53f5b25d2ac4a286523046149e29baa502b1c1d7be
+Finished: Thu Jan 13 09:11:44 2022 (Elapsed time 00:00:06)
+
+Project saved.
+Project closed.

@@ -1,0 +1,1 @@
+ -link  -top  test_system  -multisrs  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_comp.srs  -osyn  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_mult.srs  -log  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synlog/test_system_multi_srs_gen.srr 

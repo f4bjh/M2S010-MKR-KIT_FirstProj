@@ -1,0 +1,54 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03M-SP1
+Install: /home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro
+OS: Debian GNU/Linux 10 (buster)
+Hostname: f4bjh-dell
+max virtual memory: unlimited (bytes)
+max user processes: 15177
+max stack size: 8388608 (bytes)
+
+
+Implementation : synthesis
+
+# Written on Wed Jan 12 17:37:03 2022
+
+##### FILES SYNTAX CHECKED ##############################################
+Constraint File(s):      "/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/synthesis.fdc"
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+          Start                                                             Requested     Requested     Clock        Clock                   Clock
+Level     Clock                                                             Frequency     Period        Type         Group                   Load 
+--------------------------------------------------------------------------------------------------------------------------------------------------
+0 -       test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0     39   
+                                                                                                                                                  
+0 -       test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     15   
+==================================================================================================================================================
+
+
+Clock Load Summary
+******************
+
+                                                                  Clock     Source                                                                Clock Pin                                                         Non-clock Pin     Non-clock Pin                                                       
+Clock                                                             Load      Pin                                                                   Seq Example                                                       Seq Example       Comb Example                                                        
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  39        test_system_sb_0.CCC_0.CCC_INST.GL0(CCC)                              test_system_sb_0.test_system_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 test_system_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+                                                                                                                                                                                                                                                                                                          
+test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        test_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     test_system_sb_0.CORERESETP_0.release_sdif0_core.C                -                 test_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
+==========================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>test_system</design>
+	<target_verilog>/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/test_system.vm</target_verilog>
+</SynplifyOutput>

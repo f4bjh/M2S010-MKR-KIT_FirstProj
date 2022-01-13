@@ -1,0 +1,71 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+INFO: The option "Abort flow if errors are found in PDC" is turned ON in Project Settings> Design flow page. The Place & Route tool will fail if errors are found in associated PDC files. Please uncheck the option to ignore the errors and continue running the tool
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+I/O Register Combining   : OFF
+High-effort              : OFF
+Repair min-delay         : OFF
+Incremental              : OFF
+
+INFO: Reading User PDC file /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/constraint/io/user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 8 fixed I/O macros, 0 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V5.0 - 2021.3.0
+Design: test_system                     Started: Wed Jan 12 17:42:29 2022
+
+Initializing Normal-Effort Standard Placement ...
+Clustering ...
+Placing ...
+Improving placement ...
+End of placement.
+
+Placer Runtime Summary   :
+Clustering (1 pass)      : 0 seconds
+Placement                : 0 seconds
+Improvement              : 0 seconds
+
+Placer completed successfully.
+
+Design: test_system
+Finished: Wed Jan 12 17:42:31 2022
+Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
+Total Memory Usage: 544.1 Mbytes
+                        o - o - o - o - o - o
+
+
+Router
+Design: test_system                     Started: Wed Jan 12 17:42:33 2022
+
+
+Router completed successfully.
+
+Design: test_system
+Finished: Wed Jan 12 17:42:37 2022
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 626.1 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 0    | 12084 | 0.00       |
+| DFF           | 3    | 12084 | 0.02       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 3    | 12084 | 0.02       |
++---------------+------+-------+------------+
+
+I/O Placement
++--------+-------+------------+
+| Type   | Count | Percentage |
++--------+-------+------------+
+| Locked |  8    | 100.00%    |
+| Placed |  0    | 0.00%      |
++--------+-------+------------+
+

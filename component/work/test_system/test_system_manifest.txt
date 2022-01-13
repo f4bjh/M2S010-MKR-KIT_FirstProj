@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)
+
+Date      :  Wed Jan 12 15:07:10 2022
+Project   :  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj
+Component :  test_system
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/test_system.v
+
+Stimulus files for all Simulation tools:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/subsystem.bfm
+

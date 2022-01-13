@@ -1,0 +1,16 @@
+Project Name: M2S010-MKR-KIT_FirstProj
+Location: /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-1TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

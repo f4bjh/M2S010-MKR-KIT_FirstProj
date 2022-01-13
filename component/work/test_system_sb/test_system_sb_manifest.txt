@@ -1,0 +1,34 @@
+Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)
+
+Date      :  Wed Jan 12 14:59:58 2022
+Project   :  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj
+Component :  test_system_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/subsystem.bfm
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/CM3_compile_bfm.tcl
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/user.bfm
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test.bfm
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SmartFusion2MSS/MSS/1.1.500/peripheral_init.bfm
+
+Firmware files for all Software IDE tools:
+    /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/sys_config_mss_clocks.h
+
