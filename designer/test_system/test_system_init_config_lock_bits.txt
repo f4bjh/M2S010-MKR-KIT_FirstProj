@@ -1,6 +1,6 @@
 # Register Lock Bits Configuration File for MSS, SERDES(s) and Fabric DDR
 # Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)
-# Date: Thu Jan 13 08:23:04 2022
+# Date: Sun Jan 16 15:49:01 2022
 
 # Lock Value = 0, disables modification of the Register field.
 

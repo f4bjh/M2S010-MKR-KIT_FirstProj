@@ -1,5 +1,5 @@
 //////////////////////////////////////////////////////////////////////
-// Created by SmartDesign Wed Jan 12 14:59:57 2022
+// Created by SmartDesign Sun Jan 16 15:45:11 2022
 // Version: 2021.3 2021.3.0.10
 //////////////////////////////////////////////////////////////////////
 
@@ -18,9 +18,9 @@ module test_system_sb(
     GPIO_2_M2F,
     GPIO_3_M2F,
     GPIO_4_M2F,
-    GPIO_5_OUT,
-    GPIO_6_OUT,
-    GPIO_7_OUT,
+    GPIO_5_M2F,
+    GPIO_6_M2F,
+    GPIO_7_M2F,
     INIT_DONE,
     MSS_READY,
     POWER_ON_RESET_N
@@ -41,9 +41,9 @@ output GPIO_1_M2F;
 output GPIO_2_M2F;
 output GPIO_3_M2F;
 output GPIO_4_M2F;
-output GPIO_5_OUT;
-output GPIO_6_OUT;
-output GPIO_7_OUT;
+output GPIO_5_M2F;
+output GPIO_6_M2F;
+output GPIO_7_M2F;
 output INIT_DONE;
 output MSS_READY;
 output POWER_ON_RESET_N;
@@ -62,9 +62,9 @@ wire   GPIO_1_M2F_net_0;
 wire   GPIO_2_M2F_net_0;
 wire   GPIO_3_M2F_net_0;
 wire   GPIO_4_M2F_net_0;
-wire   GPIO_5_OUT_net_0;
-wire   GPIO_6_OUT_net_0;
-wire   GPIO_7_OUT_net_0;
+wire   GPIO_5_M2F_net_0;
+wire   GPIO_6_M2F_net_0;
+wire   GPIO_7_M2F_net_0;
 wire   INIT_DONE_net_0;
 wire   MSS_READY_net_0;
 wire   POWER_ON_RESET_N_net_0;
@@ -72,9 +72,6 @@ wire   test_system_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N;
 wire   test_system_sb_MSS_TMP_0_MSS_RESET_N_M2F;
 wire   POWER_ON_RESET_N_net_1;
 wire   INIT_DONE_net_1;
-wire   GPIO_5_OUT_net_1;
-wire   GPIO_6_OUT_net_1;
-wire   GPIO_7_OUT_net_1;
 wire   FAB_CCC_GL0_net_1;
 wire   FAB_CCC_LOCK_net_1;
 wire   MSS_READY_net_1;
@@ -83,6 +80,9 @@ wire   GPIO_1_M2F_net_1;
 wire   GPIO_2_M2F_net_1;
 wire   GPIO_3_M2F_net_1;
 wire   GPIO_4_M2F_net_1;
+wire   GPIO_5_M2F_net_1;
+wire   GPIO_6_M2F_net_1;
+wire   GPIO_7_M2F_net_1;
 //--------------------------------------------------------------------
 // TiedOff Nets
 //--------------------------------------------------------------------
@@ -114,12 +114,6 @@ assign POWER_ON_RESET_N_net_1 = POWER_ON_RESET_N_net_0;
 assign POWER_ON_RESET_N       = POWER_ON_RESET_N_net_1;
 assign INIT_DONE_net_1        = INIT_DONE_net_0;
 assign INIT_DONE              = INIT_DONE_net_1;
-assign GPIO_5_OUT_net_1       = GPIO_5_OUT_net_0;
-assign GPIO_5_OUT             = GPIO_5_OUT_net_1;
-assign GPIO_6_OUT_net_1       = GPIO_6_OUT_net_0;
-assign GPIO_6_OUT             = GPIO_6_OUT_net_1;
-assign GPIO_7_OUT_net_1       = GPIO_7_OUT_net_0;
-assign GPIO_7_OUT             = GPIO_7_OUT_net_1;
 assign FAB_CCC_GL0_net_1      = FAB_CCC_GL0_net_0;
 assign FAB_CCC_GL0            = FAB_CCC_GL0_net_1;
 assign FAB_CCC_LOCK_net_1     = FAB_CCC_LOCK_net_0;
@@ -136,6 +130,12 @@ assign GPIO_3_M2F_net_1       = GPIO_3_M2F_net_0;
 assign GPIO_3_M2F             = GPIO_3_M2F_net_1;
 assign GPIO_4_M2F_net_1       = GPIO_4_M2F_net_0;
 assign GPIO_4_M2F             = GPIO_4_M2F_net_1;
+assign GPIO_5_M2F_net_1       = GPIO_5_M2F_net_0;
+assign GPIO_5_M2F             = GPIO_5_M2F_net_1;
+assign GPIO_6_M2F_net_1       = GPIO_6_M2F_net_0;
+assign GPIO_6_M2F             = GPIO_6_M2F_net_1;
+assign GPIO_7_M2F_net_1       = GPIO_7_M2F_net_0;
+assign GPIO_7_M2F             = GPIO_7_M2F_net_1;
 //--------------------------------------------------------------------
 // Component instances
 //--------------------------------------------------------------------
@@ -280,9 +280,9 @@ test_system_sb_MSS test_system_sb_MSS_0(
         .GPIO_2_M2F             ( GPIO_2_M2F_net_0 ),
         .GPIO_3_M2F             ( GPIO_3_M2F_net_0 ),
         .GPIO_4_M2F             ( GPIO_4_M2F_net_0 ),
-        .GPIO_5_OUT             ( GPIO_5_OUT_net_0 ),
-        .GPIO_6_OUT             ( GPIO_6_OUT_net_0 ),
-        .GPIO_7_OUT             ( GPIO_7_OUT_net_0 ),
+        .GPIO_5_M2F             ( GPIO_5_M2F_net_0 ),
+        .GPIO_6_M2F             ( GPIO_6_M2F_net_0 ),
+        .GPIO_7_M2F             ( GPIO_7_M2F_net_0 ),
         .FIC_2_APB_M_PRESET_N   ( test_system_sb_MSS_TMP_0_FIC_2_APB_M_PRESET_N ),
         .FIC_2_APB_M_PCLK       (  ),
         .FIC_2_APB_M_PWRITE     (  ),

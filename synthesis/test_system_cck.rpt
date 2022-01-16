@@ -16,7 +16,7 @@ max stack size: 8388608 (bytes)
 
 Implementation : synthesis
 
-# Written on Wed Jan 12 17:37:03 2022
+# Written on Sun Jan 16 15:45:58 2022
 
 ##### DESIGN INFO #######################################################
 
@@ -58,9 +58,9 @@ p:GPIO_1_M2F
 p:GPIO_2_M2F
 p:GPIO_3_M2F
 p:GPIO_4_M2F
-p:GPIO_5_OUT
-p:GPIO_6_OUT
-p:GPIO_7_OUT
+p:GPIO_5_M2F
+p:GPIO_6_M2F
+p:GPIO_7_M2F
 
 
 Inapplicable constraints

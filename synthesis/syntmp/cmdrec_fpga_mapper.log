@@ -2,15 +2,15 @@
 relcom:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/m_generic -prodtype synplify_pro -encrypt -pro -rundir ../../synthesis -part M2S010 -package VF400 -grade -1 -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ../synlog/report/test_system_fpga_mapper.xml -merge_inferred_clocks 0 -top_level_module test_system -implementation synthesis -licensetype synplifypro_actel -flow mapping -mp 4 -prjfile ../scratchproject.prs -multisrs -ovm ../test_system.vm -freq 100.000 -tcl ../../designer/test_system/synthesis.fdc ../synwork/test_system_prem.srd -sap ../test_system.sap -otap ../test_system.tap -omap ../test_system.map -devicelib ../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v -ologparam test_system.plg -osyn ../test_system.srm -prjdir ../ -prjname test_system_syn -log ../synlog/test_system_fpga_mapper.srr -sn 2021.03 -jobname "fpga_mapper"
 rc:1 success:1 runtime:2
 file:../scratchproject.prs|io:o|time:1642005421|size:3374|exec:0|csum:
-file:../test_system.vm|io:o|time:1642005424|size:40105|exec:0|csum:
-file:../../designer/test_system/synthesis.fdc|io:i|time:1642005419|size:50|exec:0|csum:AFB83769FD22C7505F5B7D7D5CDCFE1C
-file:../synwork/test_system_prem.srd|io:i|time:1642005423|size:79236|exec:0|csum:C18ACFCECC9DD131C7F94CC6C7F6EEC0
-file:../test_system.sap|io:o|time:1642005423|size:2429|exec:0|csum:
+file:../test_system.vm|io:o|time:1642344360|size:37138|exec:0|csum:
+file:../../designer/test_system/synthesis.fdc|io:i|time:1642344354|size:50|exec:0|csum:D33F7B8E7C4BC414AC71DD580EFB38C5
+file:../synwork/test_system_prem.srd|io:i|time:1642344358|size:77609|exec:0|csum:23BBE2B5B0BF3ED60CF2B1954779E726
+file:../test_system.sap|io:o|time:1642344358|size:2320|exec:0|csum:
 file:../test_system.tap|io:o|time:0|size:-1|exec:0|csum:
-file:../test_system.map|io:o|time:1642005424|size:27|exec:0|csum:
+file:../test_system.map|io:o|time:1642344360|size:27|exec:0|csum:
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v|io:i|time:1636456487|size:15529|exec:0|csum:07931C2A36B2D01C3D3CFAA3805BBE3F
-file:test_system.plg|io:o|time:1642005424|size:1063|exec:0|csum:
-file:../test_system.srm|io:o|time:1642005424|size:4136|exec:0|csum:
-file:../synlog/test_system_fpga_mapper.srr|io:o|time:1642005424|size:36468|exec:0|csum:
+file:test_system.plg|io:o|time:1642344360|size:1046|exec:0|csum:
+file:../test_system.srm|io:o|time:1642344360|size:4095|exec:0|csum:
+file:../synlog/test_system_fpga_mapper.srr|io:o|time:1642344360|size:31644|exec:0|csum:
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/linux_a_64/m_generic|io:i|time:1636456493|size:44813264|exec:1|csum:4BAE0CFC1FC552C10CCC0296CECA93D4
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/m_generic|io:i|time:1636456476|size:347|exec:1|csum:04851DFC0CBB288ED81DA3E420127D0D

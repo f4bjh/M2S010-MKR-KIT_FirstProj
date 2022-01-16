@@ -1,4 +1,4 @@
-# Wed Jan 12 17:37:03 2022
+# Sun Jan 16 15:45:58 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -49,8 +49,6 @@ Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapse
 @W: BN132 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":946:4:946:9|Removing sequential instance test_system_sb_0.CORERESETP_0.CONFIG2_DONE_q1 because it is equivalent to instance test_system_sb_0.CORERESETP_0.CONFIG1_DONE_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":946:4:946:9|Removing sequential instance test_system_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base because it is equivalent to instance test_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
 @W: BN132 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":929:4:929:9|Removing sequential instance test_system_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base because it is equivalent to instance test_system_sb_0.CORERESETP_0.sdif3_spll_lock_q2. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":496:4:496:9|Removing sequential instance test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 because it is equivalent to instance test_system_sb_0.CORERESETP_0.sm1_areset_n_q1. To keep the instance, apply constraint syn_preserve=1 on the instance.
-@W: BN132 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":769:4:769:9|Removing sequential instance test_system_sb_0.CORERESETP_0.sm1_areset_n_clk_base because it is equivalent to instance test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base. To keep the instance, apply constraint syn_preserve=1 on the instance.
 
 Available hyper_sources - for debug and ip models
 	None Found
@@ -91,12 +89,16 @@ Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elaps
 
 Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 252MB peak: 252MB)
 
+@W: BN114 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v":260:9:260:20|Removing instance test_system_sb_0.SYSRESET_POR (in view: work.test_system(verilog)) of black box view:ACG4.SYSRESET(PRIM) because it does not drive other instances.
+@N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1549:4:1549:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif2_core (in view: work.test_system(verilog)) because it does not drive other instances.
+@A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1549:4:1549:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif2_core (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1517:4:1517:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif1_core (in view: work.test_system(verilog)) because it does not drive other instances.
 @A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1517:4:1517:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif1_core (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1485:4:1485:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif0_core (in view: work.test_system(verilog)) because it does not drive other instances.
 @A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1485:4:1485:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif0_core (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":526:4:526:9|Removing sequential instance test_system_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":511:4:511:9|Removing sequential instance test_system_sb_0.CORERESETP_0.RESET_N_M2F_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":496:4:496:9|Removing sequential instance test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
 @A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif3_core_q1 (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif2_core_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
@@ -115,6 +117,7 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":755:4:755:9|Removing sequential instance test_system_sb_0.CORERESETP_0.sm0_areset_n_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":526:4:526:9|Removing sequential instance test_system_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":511:4:511:9|Removing sequential instance test_system_sb_0.CORERESETP_0.RESET_N_M2F_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
+@N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":496:4:496:9|Removing sequential instance test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif3_core_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif2_core_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1646:4:1646:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif1_core_clk_base (in view: work.test_system(verilog)) because it does not drive other instances.
@@ -124,8 +127,6 @@ Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CP
 @A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1613:4:1613:9|Boundary register test_system_sb_0.CORERESETP_0.ddr_settled (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1581:4:1581:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif3_core (in view: work.test_system(verilog)) because it does not drive other instances.
 @A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1581:4:1581:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif3_core (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
-@N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1549:4:1549:9|Removing sequential instance test_system_sb_0.CORERESETP_0.release_sdif2_core (in view: work.test_system(verilog)) because it does not drive other instances.
-@A: BN291 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1549:4:1549:9|Boundary register test_system_sb_0.CORERESETP_0.release_sdif2_core (in view: work.test_system(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":912:4:912:9|Removing sequential instance test_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":912:4:912:9|Removing sequential instance test_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc (in view: work.test_system(verilog)) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":898:4:898:9|Removing sequential instance test_system_sb_0.CORERESETP_0.sdif2_areset_n_rcosc_q1 (in view: work.test_system(verilog)) because it does not drive other instances.
@@ -151,7 +152,7 @@ Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:0
 
 Pass		 CPU time		Worst Slack		Luts / Registers
 ------------------------------------------------------------
-   1		0h:00m:00s		     9.47ns		   2 /         3
+   1		0h:00m:00s		100000.00ns		   0 /         0
 
 Added 0 Buffers
 Added 0 Cells via replication
@@ -172,13 +173,13 @@ Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:
 
 Clock optimization not enabled
 0 non-gated/non-generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
-1 gated/generated clock tree(s) driving 4 clock pin(s) of sequential element(s)
-0 instances converted, 4 sequential instances remain driven by gated/generated clocks
+1 gated/generated clock tree(s) driving 1 clock pin(s) of sequential element(s)
+0 instances converted, 1 sequential instance remains driven by gated/generated clocks
 
 ========================================================================================== Gated/Generated Clocks ==========================================================================================
 Clock Tree ID     Driving Element                     Drive Element Type     Fanout     Sample Instance                                          Explanation                                                
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-@K:CKID0001       test_system_sb_0.CCC_0.CCC_INST     CCC                    4          test_system_sb_0.test_system_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
+@K:CKID0001       test_system_sb_0.CCC_0.CCC_INST     CCC                    1          test_system_sb_0.test_system_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_010
 ============================================================================================================================================================================================================
 
 
@@ -209,7 +210,7 @@ Start final timing analysis (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:0
 
 
 ##### START OF TIMING REPORT #####[
-# Timing report written on Wed Jan 12 17:37:04 2022
+# Timing report written on Sun Jan 16 15:46:00 2022
 #
 
 
@@ -229,14 +230,14 @@ Performance Summary
 *******************
 
 
-Worst slack in design: 9.486
+Worst slack in design: NA
 
-                                                                  Requested     Estimated      Requested     Estimated               Clock        Clock              
-Starting Clock                                                    Frequency     Frequency      Period        Period        Slack     Type         Group              
----------------------------------------------------------------------------------------------------------------------------------------------------------------------
-test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     1944.8 MHz     10.000        0.514         9.486     inferred     Inferred_clkgroup_0
-test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA             10.000        NA            NA        inferred     Inferred_clkgroup_1
-=====================================================================================================================================================================
+                                                                  Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                    Frequency     Frequency     Period        Period        Slack     Type         Group              
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+====================================================================================================================================================================
 Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
 
 
@@ -246,12 +247,11 @@ Estimated period and frequency reported as NA means no slack depends directly on
 Clock Relationships
 *******************
 
-Clocks                                                                                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-Starting                                          Ending                                            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock  |  10.000      9.486  |  No paths    -      |  No paths    -      |  No paths    -    
-==========================================================================================================================================================================================
+Clocks            |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------
+========================================================================================================
  Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
        'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
 
@@ -261,68 +261,6 @@ Interface Information
 *********************
 
 No IO constraint found
-
-
-
-====================================
-Detailed Report for Clock: test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock
-====================================
-
-
-
-Starting Points with Worst Slack
-********************************
-
-                                                  Starting                                                                                  Arrival          
-Instance                                          Reference                                            Type     Pin     Net                 Time        Slack
-                                                  Clock                                                                                                      
--------------------------------------------------------------------------------------------------------------------------------------------------------------
-test_system_sb_0.CORERESETP_0.sm1_areset_n_q1     test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm1_areset_n_q1     0.076       9.486
-=============================================================================================================================================================
-
-
-Ending Points with Worst Slack
-******************************
-
-                                                            Starting                                                                                  Required          
-Instance                                                    Reference                                            Type     Pin     Net                 Time         Slack
-                                                            Clock                                                                                                       
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base     test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm1_areset_n_q1     9.778        9.486
-========================================================================================================================================================================
-
-
-
-Worst Path Information
-***********************
-
-
-Path information for path number 1: 
-      Requested Period:                      10.000
-    - Setup time:                            0.222
-    + Clock delay at ending point:           0.000 (ideal)
-    = Required time:                         9.778
-
-    - Propagation time:                      0.292
-    - Clock delay at starting point:         0.000 (ideal)
-    = Slack (critical) :                     9.486
-
-    Number of logic level(s):                0
-    Starting point:                          test_system_sb_0.CORERESETP_0.sm1_areset_n_q1 / Q
-    Ending point:                            test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base / D
-    The start point is clocked by            test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-    The end   point is clocked by            test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] (rise=0.000 fall=5.000 period=10.000) on pin CLK
-
-Instance / Net                                                       Pin      Pin               Arrival     No. of    
-Name                                                        Type     Name     Dir     Delay     Time        Fan Out(s)
-----------------------------------------------------------------------------------------------------------------------
-test_system_sb_0.CORERESETP_0.sm1_areset_n_q1               SLE      Q        Out     0.076     0.076 r     -         
-sm1_areset_n_q1                                             Net      -        -       0.216     -           1         
-test_system_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base     SLE      D        In      -         0.292 r     -         
-======================================================================================================================
-Total path delay (propagation time + setup) of 0.514 is 0.298(58.0%) logic and 0.216(42.0%) route.
-Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
-
 
 
 ##### END OF TIMING REPORT #####]
@@ -343,11 +281,10 @@ CCC             1 use
 CLKINT          1 use
 MSS_010         1 use
 RCOSC_25_50MHZ  1 use
-SYSRESET        1 use
 
 
 Sequential Cells: 
-SLE            3 uses
+SLE            0 uses
 
 DSP Blocks:    0 of 22 (0%)
 
@@ -366,7 +303,7 @@ RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
 RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
 MACC     Interface Logic : SLEs = 0; LUTs = 0;
 
-Total number of SLEs after P&R:  3 + 0 + 0 + 0 = 3;
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
 Total number of LUTs after P&R:  0 + 0 + 0 + 0 = 0;
 
 Mapper successful!
@@ -374,6 +311,6 @@ Mapper successful!
 At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 252MB peak: 252MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jan 12 17:37:04 2022
+# Sun Jan 16 15:46:00 2022
 
 ###########################################################]

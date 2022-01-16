@@ -43,7 +43,7 @@
 </row>
 <row>
  <cell>USE_MSS_DDR_SDR</cell>
- <cell>1</cell>
+ <cell>0</cell>
 </row>
 <row>
  <cell>USE_MSS_EXTMEM</cell>
@@ -3175,7 +3175,7 @@
 </row>
 <row>
  <cell>GPIO5_TYPE</cell>
- <cell>CONNECTION_IOA</cell>
+ <cell>CONNECTION_FABRICA</cell>
 </row>
 <row>
  <cell>GPIO5_USAGE</cell>
@@ -3187,7 +3187,7 @@
 </row>
 <row>
  <cell>GPIO6_TYPE</cell>
- <cell>CONNECTION_IOA</cell>
+ <cell>CONNECTION_FABRICA</cell>
 </row>
 <row>
  <cell>GPIO6_USAGE</cell>
@@ -3199,7 +3199,7 @@
 </row>
 <row>
  <cell>GPIO7_TYPE</cell>
- <cell>CONNECTION_IOA</cell>
+ <cell>CONNECTION_FABRICA</cell>
 </row>
 <row>
  <cell>GPIO7_USAGE</cell>
@@ -3574,21 +3574,6 @@
  <cell>-</cell>
 </row>
 <row>
- <cell>GPIO_5_OUT</cell>
- <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>GPIO_6_OUT</cell>
- <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
- <cell>GPIO_7_OUT</cell>
- <cell>OUT</cell>
- <cell>-</cell>
-</row>
-<row>
  <cell>FAB_CCC_GL0</cell>
  <cell>OUT</cell>
  <cell>-</cell>
@@ -3630,6 +3615,21 @@
 </row>
 <row>
  <cell>GPIO_4_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>GPIO_5_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>GPIO_6_M2F</cell>
+ <cell>OUT</cell>
+ <cell>-</cell>
+</row>
+<row>
+ <cell>GPIO_7_M2F</cell>
  <cell>OUT</cell>
  <cell>-</cell>
 </row>

@@ -17,12 +17,12 @@
     <ProgrammingInterface>
         JTAGMode
     </ProgrammingInterface>
-    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="usb1.1">
+    <programmer status="enable" type="FlashPro5" revision="UndefRev" connection="BiDir">
         <name>
-            E20026KIWK
+            E10026KIWK
         </name>
         <id>
-            E20026KIWK
+            E10026KIWK
         </id>
     </programmer>
     <Server>

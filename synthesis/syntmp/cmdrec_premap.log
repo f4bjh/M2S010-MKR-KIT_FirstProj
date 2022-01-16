@@ -1,16 +1,16 @@
 /home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/m_generic  -mp  4  -prjfile  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/scratchproject.prs  -prodtype  synplify_pro  -encrypt  -pro  -rundir  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis   -part M2S010  -package VF400  -grade -1    -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synlog/report/test_system_premap.xml -merge_inferred_clocks 0  -top_level_module  test_system  -implementation  synthesis  -ovm  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/test_system.vm  -conchk_prepass  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/test_system_cck.rpt   -freq 100.000   -tcl  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/synthesis.fdc  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_mult.srs  -flow prepass  -gcc_prepass  -osrd  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_prem.srd  -qsap  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/test_system.sap  -devicelib  /home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v  -ologparam  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/syntmp/test_system.plg  -osyn  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_prem.srd  -prjdir  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/  -prjname  test_system_syn  -log  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synlog/test_system_premap.srr  -sn  2021.03  -jobname  "premap" 
 relcom:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/m_generic -mp 4 -prjfile ../scratchproject.prs -prodtype synplify_pro -encrypt -pro -rundir ../../synthesis -part M2S010 -package VF400 -grade -1 -continue_on_error -report_preserve_cdc -min_cdc_sync_flops 2 -unsafe_cdc_netlist_property 0 -maxfan 10000 -infer_seqShift -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -seqshift_to_uram 0 -opcond COMTC -report_path 4000 -disable_ramindex 0 -rep_clkint_driver 1 -microsemi_enhanced_flow 1 -resolveMultipleDriver -ternary_adder_decomp 66 -pack_uram_addr_reg 1 -RWCheckOnRam 0 -local_tmr_rename -summaryfile ../synlog/report/test_system_premap.xml -merge_inferred_clocks 0 -top_level_module test_system -implementation synthesis -ovm ../test_system.vm -conchk_prepass ../test_system_cck.rpt -freq 100.000 -tcl ../../designer/test_system/synthesis.fdc ../synwork/test_system_mult.srs -flow prepass -gcc_prepass -osrd ../synwork/test_system_prem.srd -qsap ../test_system.sap -devicelib ../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v -ologparam test_system.plg -osyn ../synwork/test_system_prem.srd -prjdir ../ -prjname test_system_syn -log ../synlog/test_system_premap.srr -sn 2021.03 -jobname "premap"
-rc:1 success:1 runtime:1
+rc:1 success:1 runtime:0
 file:../scratchproject.prs|io:o|time:1642005421|size:3374|exec:0|csum:
-file:../test_system.vm|io:o|time:0|size:-1|exec:0|csum:
-file:../test_system_cck.rpt|io:o|time:1642005423|size:3551|exec:0|csum:
-file:../../designer/test_system/synthesis.fdc|io:i|time:1642005419|size:50|exec:0|csum:AFB83769FD22C7505F5B7D7D5CDCFE1C
-file:../synwork/test_system_mult.srs|io:i|time:1642005422|size:2311|exec:0|csum:156EC59AFD953BA9BCE00163A8DB3B08
-file:../synwork/test_system_prem.srd|io:o|time:1642005423|size:79236|exec:0|csum:
-file:../test_system.sap|io:o|time:1642005423|size:2429|exec:0|csum:
+file:../test_system.vm|io:o|time:1642344115|size:40105|exec:0|csum:
+file:../test_system_cck.rpt|io:o|time:1642344358|size:3551|exec:0|csum:
+file:../../designer/test_system/synthesis.fdc|io:i|time:1642344354|size:50|exec:0|csum:D33F7B8E7C4BC414AC71DD580EFB38C5
+file:../synwork/test_system_mult.srs|io:i|time:1642344358|size:2289|exec:0|csum:50C65E79C8DA2446A293218068D0F474
+file:../synwork/test_system_prem.srd|io:o|time:1642344358|size:77609|exec:0|csum:
+file:../test_system.sap|io:o|time:1642344358|size:2320|exec:0|csum:
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v|io:i|time:1636456487|size:15529|exec:0|csum:07931C2A36B2D01C3D3CFAA3805BBE3F
-file:test_system.plg|io:o|time:1642005423|size:0|exec:0|csum:
-file:../synwork/test_system_prem.srd|io:o|time:1642005423|size:79236|exec:0|csum:
-file:../synlog/test_system_premap.srr|io:o|time:1642005423|size:19772|exec:0|csum:
+file:test_system.plg|io:o|time:1642344358|size:0|exec:0|csum:
+file:../synwork/test_system_prem.srd|io:o|time:1642344358|size:77609|exec:0|csum:
+file:../synlog/test_system_premap.srr|io:o|time:1642344358|size:20581|exec:0|csum:
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/linux_a_64/m_generic|io:i|time:1636456493|size:44813264|exec:1|csum:4BAE0CFC1FC552C10CCC0296CECA93D4
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/m_generic|io:i|time:1636456476|size:347|exec:1|csum:04851DFC0CBB288ED81DA3E420127D0D

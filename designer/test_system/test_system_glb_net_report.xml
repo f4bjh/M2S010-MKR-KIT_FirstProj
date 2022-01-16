@@ -3,7 +3,7 @@
 <doc>
 <title>Global Net Report</title>
 <text>Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)</text>
-<text>Date: Wed Jan 12 17:42:32 2022
+<text>Date: Sun Jan 16 15:48:24 2022
 </text>
 <section>
 <name>Global Nets Information</name>
@@ -20,7 +20,7 @@
  <cell>GB[2] </cell>
  <cell>(220, 54)</cell>
  <cell>test_system_sb_0/CCC_0/GL0_INST/U0_YNn</cell>
- <cell>4</cell>
+ <cell>1</cell>
 </row>
 </table>
 <text></text>
@@ -107,7 +107,7 @@
  <cell>GB[2] </cell>
  <cell>(220, 54)</cell>
  <cell>test_system_sb_0/CCC_0/GL0_INST/U0_YNn</cell>
- <cell>4</cell>
+ <cell>1</cell>
  <cell> </cell>
  <cell>(218, 102)</cell>
  <cell>1</cell>

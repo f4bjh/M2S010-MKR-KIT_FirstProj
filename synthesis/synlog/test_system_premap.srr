@@ -1,4 +1,4 @@
-# Wed Jan 12 17:37:02 2022
+# Sun Jan 16 15:45:58 2022
 
 
 Copyright (C) 1994-2021 Synopsys, Inc.
@@ -52,14 +52,17 @@ Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":695:4:695:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":714:4:714:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":733:4:733:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q1 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":769:4:769:9|Sequential instance test_system_sb_0.CORERESETP_0.sm1_areset_n_q1 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":676:4:676:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q2 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":695:4:695:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q2 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":714:4:714:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q2 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":733:4:733:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q2 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":769:4:769:9|Sequential instance test_system_sb_0.CORERESETP_0.sm1_areset_n_clk_base is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":676:4:676:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF0_PERST_N_q3 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":695:4:695:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF1_PERST_N_q3 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":714:4:714:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF2_PERST_N_q3 is reduced to a combinational gate by constant propagation.
 @W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":733:4:733:9|Sequential instance test_system_sb_0.CORERESETP_0.SDIF3_PERST_N_q3 is reduced to a combinational gate by constant propagation.
+@W: MO129 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1388:4:1388:9|Sequential instance test_system_sb_0.CORERESETP_0.RESET_N_F2M_int is reduced to a combinational gate by constant propagation.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1089:4:1089:9|Removing sequential instance DDR_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_READY_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
 @N: BN362 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":1089:4:1089:9|Removing sequential instance SDIF_RELEASED_int (in view: work.CoreResetP_Z1(verilog)) of type view:PrimLib.dffre(prim) because it does not drive other instances.
@@ -96,7 +99,7 @@ Clock Summary
           Start                                                             Requested     Requested     Clock        Clock                   Clock
 Level     Clock                                                             Frequency     Period        Type         Group                   Load 
 --------------------------------------------------------------------------------------------------------------------------------------------------
-0 -       test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0     39   
+0 -       test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_0     36   
                                                                                                                                                   
 0 -       test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_1     15   
 ==================================================================================================================================================
@@ -109,12 +112,12 @@ Clock Load Summary
                                                                   Clock     Source                                                                Clock Pin                                                         Non-clock Pin     Non-clock Pin                                                       
 Clock                                                             Load      Pin                                                                   Seq Example                                                       Seq Example       Comb Example                                                        
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  39        test_system_sb_0.CCC_0.CCC_INST.GL0(CCC)                              test_system_sb_0.test_system_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 test_system_sb_0.CCC_0.GL0_INST.I(BUFG)                             
+test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock                  36        test_system_sb_0.CCC_0.CCC_INST.GL0(CCC)                              test_system_sb_0.test_system_sb_MSS_0.MSS_ADLIB_INST.CLK_BASE     -                 test_system_sb_0.CCC_0.GL0_INST.I(BUFG)                             
                                                                                                                                                                                                                                                                                                           
 test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     15        test_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ.CLKOUT(RCOSC_25_50MHZ)     test_system_sb_0.CORERESETP_0.release_sdif0_core.C                -                 test_system_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB.A(RCOSC_25_50MHZ_FAB)
 ==========================================================================================================================================================================================================================================================================================================
 
-@W: MT530 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":565:4:565:9|Found inferred clock test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 39 sequential elements including test_system_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":565:4:565:9|Found inferred clock test_system_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 36 sequential elements including test_system_sb_0.CORERESETP_0.MSS_HPMS_READY_int. This clock has no specified timing constraint which may adversely impact design performance. 
 @W: MT530 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v":912:4:912:9|Found inferred clock test_system_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 15 sequential elements including test_system_sb_0.CORERESETP_0.sdif3_areset_n_rcosc_q1. This clock has no specified timing constraint which may adversely impact design performance. 
 
 @N: FX1143 |Skipping assigning INTERNAL_VREF to iobanks, because the table of mapping from pin to iobank is not initialized.
@@ -143,6 +146,6 @@ Pre-mapping successful!
 At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 256MB peak: 256MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
-# Wed Jan 12 17:37:03 2022
+# Sun Jan 16 15:45:58 2022
 
 ###########################################################]

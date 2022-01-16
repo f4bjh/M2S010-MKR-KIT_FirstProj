@@ -19,7 +19,7 @@ The file contains the job information from mapper to be displayed as part of the
 </report_link>
 </info>
 <info name="Warnings">
-<data>15</data>
+<data>18</data>
 <report_link name="more">
 <data>/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synlog/report/test_system_premap_warnings.txt</data>
 </report_link>
@@ -40,7 +40,7 @@ The file contains the job information from mapper to be displayed as part of the
 <data>256MB</data>
 </info>
 <info name="Date &amp; Time">
-<data type="timestamp">1642005423</data>
+<data type="timestamp">1642344358</data>
 </info>
 </job_info>
 </job_run_status>

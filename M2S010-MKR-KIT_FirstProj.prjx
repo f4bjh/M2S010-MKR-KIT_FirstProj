@@ -54,51 +54,51 @@ ENDLIST
 LIST FileManager
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995992"
+TIME="1642344309"
 SIZE="584"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v,hdl"
 STATE="utd"
-TIME="1641995992"
+TIME="1642344309"
 SIZE="65628"
 PARENT="<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v,hdl"
 STATE="utd"
-TIME="1641995992"
+TIME="1642344309"
 SIZE="8822"
 PARENT="<project>/component/Actel/DirectCore/CoreResetP/7.1.100/CoreResetP.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/FCCC/2.0.201/FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995992"
+TIME="1642344309"
 SIZE="241"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344311"
 SIZE="684"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/osc_comps.v,hdl"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344311"
 SIZE="924"
 PARENT="<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
-TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT,SYNPLIFY_SE_EXT"
+TOOL_CONSTRAINT_USE="SYNPLIFY7_EXT"
 END_USE_CONSTRAINT
 USE_FOR_ANY_TOOL="FALSE"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v,hdl"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344311"
 SIZE="726"
 PARENT="<project>/component/Actel/SgCore/OSC/2.0.101/OSC.cxf"
 BEGIN_USE_CONSTRAINT
@@ -110,85 +110,85 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS/1.1.500/MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995985"
+TIME="1642344306"
 SIZE="526"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CC/1.0.100/MSS_CC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="252"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CCC/1.0.100/MSS_CCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="253"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CFGM/1.1.100/MSS_CFGM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_CM3/1.0.200/MSS_CM3.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="253"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_DDRB/1.0.200/MSS_DDRB.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_EDAC/1.0.101/MSS_EDAC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_ENVM/1.0.101/MSS_ENVM.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_FIC32/1.0.100/MSS_FIC32.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="255"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_GPIO/1.0.100/MSS_GPIO.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_INTR/1.0.200/MSS_INTR.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="254"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_RESET/1.0.100/MSS_RESET.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="255"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_SECURITY/1.0.100/MSS_SECURITY.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="258"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/component/Actel/SmartFusion2MSS/MSS_SWITCH/1.0.101/MSS_SWITCH.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995980"
+TIME="1642344303"
 SIZE="256"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
@@ -199,70 +199,70 @@ SIZE="1697"
 ENDFILE
 VALUE "<project>/component/work/test_system/test_system.cxf,actgen_cxf"
 STATE="utd"
-TIME="1642058872"
-SIZE="4402"
+TIME="1642344348"
+SIZE="3886"
 ENDFILE
 VALUE "<project>/component/work/test_system/test_system.v,hdl"
 STATE="utd"
-TIME="1641996429"
-SIZE="3387"
+TIME="1642344348"
+SIZE="3681"
 PARENT="<project>/component/work/test_system/test_system.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995991"
+TIME="1642344309"
 SIZE="679"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.v,hdl"
 STATE="utd"
-TIME="1641995991"
+TIME="1642344309"
 SIZE="1689"
 PARENT="<project>/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344310"
 SIZE="455"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v,hdl"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344310"
 SIZE="768"
 PARENT="<project>/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/test_system_sb.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995999"
-SIZE="7660"
+TIME="1642344311"
+SIZE="7387"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb/test_system_sb.v,hdl"
 STATE="utd"
-TIME="1641995997"
+TIME="1642344311"
 SIZE="13119"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf,actgen_cxf"
 STATE="utd"
-TIME="1641995985"
-SIZE="14816"
+TIME="1642344307"
+SIZE="14543"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.v,hdl"
 STATE="utd"
-TIME="1641995985"
-SIZE="44923"
+TIME="1642344306"
+SIZE="44083"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb_MSS/test_system_sb_MSS_pre.v,hdl"
 STATE="utd"
-TIME="1641995984"
-SIZE="54858"
+TIME="1642344306"
+SIZE="54528"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
@@ -273,8 +273,8 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v,hdl"
 STATE="utd"
-TIME="1641995984"
-SIZE="47753"
+TIME="1642344306"
+SIZE="47499"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 BEGIN_USE_CONSTRAINT
 TOOL_CONSTRAINT_TYPE="ideSYNTHESIS"
@@ -285,32 +285,32 @@ IS_READONLY="TRUE"
 ENDFILE
 VALUE "<project>/constraint/io/user.pdc,io_pdc"
 STATE="utd"
-TIME="1642005688"
-SIZE="1237"
+TIME="1642344401"
+SIZE="1463"
 IS_TARGET="TRUE"
 ENDFILE
 VALUE "<project>/simulation/CM3_compile_bfm.tcl,sim"
 STATE="utd"
-TIME="1641995987"
+TIME="1642344308"
 SIZE="491"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/simulation/peripheral_init.bfm,sim"
 STATE="utd"
-TIME="1641995987"
+TIME="1642344308"
 SIZE="8450"
 PARENT="<project>/component/Actel/SmartFusion2MSS/MSS/1.1.500/MSS.cxf"
 ENDFILE
 VALUE "<project>/simulation/subsystem.bfm,sim"
 STATE="utd"
-TIME="1641996430"
+TIME="1642344001"
 SIZE="736"
 PARENT="<project>/component/work/test_system/test_system.cxf"
 PARENT="<project>/component/work/test_system_sb/test_system_sb.cxf"
 ENDFILE
 VALUE "<project>/simulation/test.bfm,sim"
 STATE="utd"
-TIME="1641995987"
+TIME="1642344308"
 SIZE="710"
 PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
@@ -322,22 +322,22 @@ PARENT="<project>/component/work/test_system_sb_MSS/test_system_sb_MSS.cxf"
 ENDFILE
 VALUE "<project>/synthesis/test_system.so,so"
 STATE="utd"
-TIME="1642005424"
+TIME="1642343496"
 SIZE="233"
 ENDFILE
 VALUE "<project>/synthesis/test_system.vm,syn_vm"
 STATE="utd"
-TIME="1642005424"
-SIZE="40105"
+TIME="1642343496"
+SIZE="39049"
 ENDFILE
 VALUE "<project>/synthesis/test_system_syn.prj,prj"
 STATE="utd"
-TIME="1642005425"
-SIZE="3323"
+TIME="1642344073"
+SIZE="3117"
 ENDFILE
 VALUE "<project>/synthesis/test_system_vm.sdc,syn_sdc"
 STATE="utd"
-TIME="1642005424"
+TIME="1642343496"
 SIZE="1054"
 ENDFILE
 ENDLIST
@@ -465,8 +465,8 @@ NAME="Synplify Pro ME"
 FUNCTION="Synthesis"
 TOOL="Synplify Pro ME"
 LOCATION="/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/synplify_pro"
-PARAM=""
-BATCH=0
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
 LICENSE=""
 IS32BIT="1"
 EndProfile
@@ -515,11 +515,23 @@ LIST UserCustomizedFileList
 ENDLIST
 LIST OpenedFileList
 ORIENTATION;HORIZONTAL
+Reports;Reports;0
+ReportsCurrentItem;synthesis:synplify.log
+Constraint Manager;Constraint Manager;0
 StartPage;StartPage;0
-ACTIVEVIEW;StartPage
+SmartDesign;test_system;0
+ACTIVEVIEW;Constraint Manager
 ENDLIST
 LIST ModuleSubBlockList
 LIST "coreresetp_pcie_hotreset::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v","FALSE","FALSE"
+ENDLIST
+LIST "DESIGN_FIRMWARE::work","component/work/DESIGN_FIRMWARE/DESIGN_FIRMWARE.cxf","TRUE","FALSE"
+SUBBLOCK "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+SUBBLOCK "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "CoreResetP::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v","FALSE","FALSE"
 SUBBLOCK "coreresetp_pcie_hotreset::work","component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v","FALSE","FALSE"
@@ -533,6 +545,18 @@ ENDLIST
 LIST "RCOSC_25_50MHZ::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.v","FALSE","FALSE"
 ENDLIST
 LIST "RCOSC_25_50MHZ_FAB::work","component/Actel/SgCore/OSC/2.0.101/osc_comps.v","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_CMSIS::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_GPIO_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_HPDMA_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_NVM_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_System_Services_Driver::work","","FALSE","FALSE"
+ENDLIST
+LIST "SmartFusion2_MSS_Timer_Driver::work","","FALSE","FALSE"
 ENDLIST
 LIST "test_system::work","component/work/test_system/test_system.v","TRUE","FALSE"
 SUBBLOCK "test_system_sb::work","component/work/test_system_sb/test_system_sb.v","TRUE","FALSE"

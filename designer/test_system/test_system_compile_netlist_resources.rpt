@@ -1,6 +1,6 @@
 Resource Report
 Microsemi Corporation - Microsemi Libero Software Release v2021.3 (Version 2021.3.0.10)
-Date: Wed Jan 12 17:37:07 2022
+Date: Sun Jan 16 15:46:02 2022
 
 Device Selection
 +--------------------------------+----------------+
@@ -38,7 +38,7 @@ Resource Usage
 | Type                      | Used | Total | Percentage |
 +---------------------------+------+-------+------------+
 | 4LUT                      | 0    | 12084 | 0.00       |
-| DFF                       | 3    | 12084 | 0.02       |
+| DFF                       | 0    | 12084 | 0.00       |
 | I/O Register              | 0    | 252   | 0.00       |
 | User I/O                  | 8    | 84    | 9.52       |
 | -- Single-ended I/O       | 8    | 84    | 9.52       |
@@ -58,11 +58,11 @@ Detailed Logic Resource Usage
 +--------------------------+------+-----+
 | Type                     | 4LUT | DFF |
 +--------------------------+------+-----+
-| Fabric Logic             | 0    | 3   |
+| Fabric Logic             | 0    | 0   |
 | RAM64x18 Interface Logic | 0    | 0   |
 | RAM1K18 Interface Logic  | 0    | 0   |
 | MACC Interface Logic     | 0    | 0   |
-| Total Used               | 0    | 3   |
+| Total Used               | 0    | 0   |
 +--------------------------+------+-----+
 
 MSS Resource Usage
@@ -108,7 +108,7 @@ Nets assigned to chip global resources
 +--------+---------+-------------------------------------------------+
 | Fanout | Type    | Name                                            |
 +--------+---------+-------------------------------------------------+
-| 4      | INT_NET | Net   : test_system_sb_0/GL0_INST               |
+| 1      | INT_NET | Net   : test_system_sb_0/GL0_INST               |
 |        |         | Driver: test_system_sb_0/CCC_0/GL0_INST/U0_RGB1 |
 |        |         | Source: NETLIST                                 |
 +--------+---------+-------------------------------------------------+
@@ -120,54 +120,54 @@ Nets assigned to row global resources
 +--------+------+------+
 
 High fanout nets
-+--------+---------+-----------------------------------------------------------------+
-| Fanout | Type    | Name                                                            |
-+--------+---------+-----------------------------------------------------------------+
-| 2      | INT_NET | Net   : test_system_sb_0/POWER_ON_RESET_N                       |
-|        |         | Driver: test_system_sb_0/SYSRESET_POR                           |
-| 1      | INT_NET | Net   : GPIO_0_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_1_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_2_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_3_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_4_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : test_system_sb_0/LOCK                                   |
-|        |         | Driver: test_system_sb_0/CCC_0/CCC_INST                         |
-| 1      | INT_NET | Net   : test_system_sb_0/CCC_0/GL0_INST/U0_YNn                  |
-|        |         | Driver: test_system_sb_0/CCC_0/GL0_INST                         |
-| 1      | INT_NET | Net   : test_system_sb_0/CORERESETP_0_RESET_N_F2M               |
-|        |         | Driver: test_system_sb_0/CORERESETP_0/RESET_N_F2M_int           |
-| 1      | INT_NET | Net   : test_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base     |
-|        |         | Driver: test_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base |
-+--------+---------+-----------------------------------------------------------------+
++--------+---------+--------------------------------------------------------------+
+| Fanout | Type    | Name                                                         |
++--------+---------+--------------------------------------------------------------+
+| 1      | INT_NET | Net   : GPIO_0_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_1_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_2_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_3_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_4_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_5_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_6_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_7_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : test_system_sb_0/LOCK                                |
+|        |         | Driver: test_system_sb_0/CCC_0/CCC_INST                      |
+| 1      | INT_NET | Net   : test_system_sb_0/CCC_0/GL0_INST/U0_YNn               |
+|        |         | Driver: test_system_sb_0/CCC_0/GL0_INST                      |
++--------+---------+--------------------------------------------------------------+
 
 High fanout nets (through buffer trees)
-+--------+---------+-----------------------------------------------------------------+
-| Fanout | Type    | Name                                                            |
-+--------+---------+-----------------------------------------------------------------+
-| 2      | INT_NET | Net   : test_system_sb_0/POWER_ON_RESET_N                       |
-|        |         | Driver: test_system_sb_0/SYSRESET_POR                           |
-| 1      | INT_NET | Net   : GPIO_0_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_1_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_2_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_3_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : GPIO_4_M2F_c                                            |
-|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST    |
-| 1      | INT_NET | Net   : test_system_sb_0/LOCK                                   |
-|        |         | Driver: test_system_sb_0/CCC_0/CCC_INST                         |
-| 1      | INT_NET | Net   : test_system_sb_0/CCC_0/GL0_INST/U0_YNn                  |
-|        |         | Driver: test_system_sb_0/CCC_0/GL0_INST                         |
-| 1      | INT_NET | Net   : test_system_sb_0/CORERESETP_0_RESET_N_F2M               |
-|        |         | Driver: test_system_sb_0/CORERESETP_0/RESET_N_F2M_int           |
-| 1      | INT_NET | Net   : test_system_sb_0/CORERESETP_0/sm1_areset_n_clk_base     |
-|        |         | Driver: test_system_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base |
-+--------+---------+-----------------------------------------------------------------+
++--------+---------+--------------------------------------------------------------+
+| Fanout | Type    | Name                                                         |
++--------+---------+--------------------------------------------------------------+
+| 1      | INT_NET | Net   : GPIO_0_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_1_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_2_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_3_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_4_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_5_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_6_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : GPIO_7_M2F_c                                         |
+|        |         | Driver: test_system_sb_0/test_system_sb_MSS_0/MSS_ADLIB_INST |
+| 1      | INT_NET | Net   : test_system_sb_0/LOCK                                |
+|        |         | Driver: test_system_sb_0/CCC_0/CCC_INST                      |
+| 1      | INT_NET | Net   : test_system_sb_0/CCC_0/GL0_INST/U0_YNn               |
+|        |         | Driver: test_system_sb_0/CCC_0/GL0_INST                      |
++--------+---------+--------------------------------------------------------------+
 

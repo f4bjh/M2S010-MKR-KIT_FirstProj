@@ -1,13 +1,13 @@
 Software Version: 2021.3.0.10
 Opened '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system_fp/test_system.pro'
 PDB file '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system.pdb' has been loaded successfully.
-DESIGN : test_system;  CHECKSUM : 0DEB;  PDB_VERSION : 1.9
+DESIGN : test_system;  CHECKSUM : 4044;  PDB_VERSION : 1.9
 Info: Programming Interface selected is JTAG.
 File/Folder '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system.ppd' will be overwritten.
 Successfully exported PPD file for currently secured device: '/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/designer/test_system/test_system.ppd'; file programs Fabric.
-Fabric component bitstream digest: 28a48c7472c9fba2ede53d6cae896281e549ac37da9bdce8eab133fd901a4121
-Entire bitstream digest: e909bd92c8303a0e57b44d53f5b25d2ac4a286523046149e29baa502b1c1d7be
-Finished: Thu Jan 13 08:23:56 2022 (Elapsed time 00:00:06)
+Fabric component bitstream digest: 02e21b0e587bcbbb9f5e058a6c14fb3a6267028dae4b1b6edaa96dd1fb232d45
+Entire bitstream digest: cd004376ec0a2290995a27339e196a6327e55ece8980e72fc19baba7bce1da1f
+Finished: Sun Jan 16 15:49:34 2022 (Elapsed time 00:00:07)
 
 Project saved.
 Project closed.

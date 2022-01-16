@@ -1,5 +1,5 @@
 ----------------------------------------------------------------
--Pin Report - Date: Wed Jan 12 17:42:39 2022 Pinchecksum: NOT-AVAILABLE
+-Pin Report - Date: Sun Jan 16 15:48:31 2022 Pinchecksum: NOT-AVAILABLE
 -Product: Designer
 -Release: v2021.3
 -Version: 2021.3.0.10
@@ -82,7 +82,7 @@ Number |Port       |Function                     |State         |I/O Std  |Direc
 69                  XTLOSC_AUX_EXTAL              Reserved       
 70                  XTLOSC_MAIN_XTAL              Reserved       
 71                  XTLOSC_MAIN_EXTAL             Reserved       
-72      DEVRST_N    DEVRST_N                      Dedicated      
+72                  DEVRST_N                      Reserved       
 73                  JTAGSEL                       Reserved       
 74                  JTAG_TDO/M3_TDO/M3_SWO        Reserved       
 75                  JTAG_TCK/M3_TCK               Reserved       
@@ -111,9 +111,9 @@ Number |Port       |Function                     |State         |I/O Std  |Direc
 98                  VSS                           Reserved       
 99                  VDDI2                         Reserved       
 100                 MSIO12PB2/SPI_0_CLK           Unassigned     
-101     GPIO_5_OUT  MSIO12NB2/SPI_0_SDI/GPIO_5_A  Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-102     GPIO_6_OUT  MSIO13PB2/SPI_0_SDO/GPIO_6_A  Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-103     GPIO_7_OUT  MSIO13NB2/SPI_0_SS0/GPIO_7_A  Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+101                 MSIO12NB2/SPI_0_SDI/GPIO_5_A  Unassigned     
+102                 MSIO13PB2/SPI_0_SDO/GPIO_6_A  Unassigned     
+103                 MSIO13NB2/SPI_0_SS0/GPIO_7_A  Unassigned     
 104                 VPP                           Reserved       
 105                 VDD                           Reserved       
 106                 CCC_NE1_PLL_VSSA              Reserved       
@@ -134,12 +134,12 @@ Number |Port       |Function                     |State         |I/O Std  |Direc
 121                 VDD                           Reserved       
 122     GPIO_2_M2F  DDRIO43NB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 123     GPIO_3_M2F  DDRIO43PB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
-124                 DDRIO44NB0                    Unassigned     
-125     GPIO_4_M2F  DDRIO44PB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+124     GPIO_4_M2F  DDRIO44NB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+125     GPIO_5_M2F  DDRIO44PB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 126                 VSS                           Reserved       
 127                 VDDI0                         Reserved       
-128                 DDRIO47NB0                    Unassigned     
-129                 DDRIO47PB0                    Unassigned     
+128     GPIO_6_M2F  DDRIO47NB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
+129     GPIO_7_M2F  DDRIO47PB0                    Fixed          LVCMOS25  Output     TRISTATE                        None           No                                  ---              ---         ---            ---             ---          SLOW  ---           4                  5                 
 130                 DDRIO48NB0                    Unassigned     
 131                 DDRIO48PB0                    Unassigned     
 132                 VSS                           Reserved       

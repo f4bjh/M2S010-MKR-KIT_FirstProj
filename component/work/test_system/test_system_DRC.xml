@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>test_system</header>
+  <drc>
+    <status>/home/f4bjh/microsemi/Libero_SoC_v2021.3/Libero/data/drcreport/warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin test_system_sb_0:POWER_ON_RESET_N</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/test_system/pins/test_system_sb_0:POWER_ON_RESET_N</crossprobe>
+  </drc>
+</drcreport>

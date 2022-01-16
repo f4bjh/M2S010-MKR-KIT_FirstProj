@@ -1,8 +1,8 @@
 /home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/syn_nfilter  -link  -top  test_system  -multisrs  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_comp.srs  -osyn  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/test_system_mult.srs  -log  /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synlog/test_system_multi_srs_gen.srr 
 relcom:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/syn_nfilter -link -top test_system -multisrs ../synwork/test_system_comp.srs -osyn ../synwork/test_system_mult.srs -log ../synlog/test_system_multi_srs_gen.srr
 rc:0 success:1 runtime:0
-file:../synwork/test_system_comp.srs|io:i|time:1642005421|size:61436|exec:0|csum:E9BBF1E257C35D977DA7184FC5EEF34C
-file:../synwork/test_system_mult.srs|io:o|time:1642005422|size:2311|exec:0|csum:
-file:../synlog/test_system_multi_srs_gen.srr|io:o|time:1642005422|size:1158|exec:0|csum:
+file:../synwork/test_system_comp.srs|io:i|time:1642344357|size:60802|exec:0|csum:3141020E650655D7953D0A4FF4042C34
+file:../synwork/test_system_mult.srs|io:o|time:1642344358|size:2289|exec:0|csum:
+file:../synlog/test_system_multi_srs_gen.srr|io:o|time:1642344358|size:1267|exec:0|csum:
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/linux_a_64/syn_nfilter|io:i|time:1636456493|size:12428832|exec:1|csum:46C9F805772357EAB43B6CF189CCBC64
 file:../../../../microsemi/Libero_SoC_v2021.3/SynplifyPro/bin/syn_nfilter|io:i|time:1636456476|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

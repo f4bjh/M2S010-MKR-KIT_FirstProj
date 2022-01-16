@@ -71,6 +71,15 @@ Synopsys Verilog Compiler, Version comp202103synp2, Build 168R, Built Oct 12 202
 @I::"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/test_system.v" (library work)
 @N|stack limit increased to max
 Verilog syntax check successful!
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp_pcie_hotreset.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/DirectCore/CoreResetP/7.1.100/rtl/vlog/core/coreresetp.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/CCC_0/test_system_sb_CCC_0_FCCC.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v changed - recompiling
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system/test_system.v changed - recompiling
 Selecting top level module test_system
 @N: CG364 :"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":376:7:376:9|Synthesizing module VCC in library work.
 Running optimization stage 1 on VCC .......
@@ -175,9 +184,6 @@ Finished optimization stage 1 on test_system_sb_FABOSC_0_OSC (CPU Time 0h:00m:00
 @N: CG364 :"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
 Running optimization stage 1 on SYSRESET .......
 Finished optimization stage 1 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 134MB)
-@N: CG364 :"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF in library work.
-Running optimization stage 1 on OUTBUF .......
-Finished optimization stage 1 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 134MB peak: 134MB)
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
 Running optimization stage 1 on MSS_010 .......
 Finished optimization stage 1 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
@@ -198,8 +204,6 @@ Running optimization stage 2 on test_system_sb_MSS .......
 Finished optimization stage 2 on test_system_sb_MSS (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
 Running optimization stage 2 on MSS_010 .......
 Finished optimization stage 2 on MSS_010 (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
-Running optimization stage 2 on OUTBUF .......
-Finished optimization stage 2 on OUTBUF (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
 Running optimization stage 2 on SYSRESET .......
 Finished optimization stage 2 on SYSRESET (CPU Time 0h:00m:00s, Memory Used current: 135MB peak: 135MB)
 Running optimization stage 2 on test_system_sb_FABOSC_0_OSC .......
@@ -307,7 +311,7 @@ At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jan 12 17:37:01 2022
+# Sun Jan 16 15:45:56 2022
 
 ###########################################################]
 ###########################################################[
@@ -331,13 +335,14 @@ Implementation : synthesis
 Synopsys Synopsys Netlist Linker, Version comp202103synp2, Build 168R, Built Oct 12 2021 09:24:09, @4013511
 
 @N|Running in 64-bit mode
+File /home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/synthesis/synwork/layer0.srs changed - recompiling
 
 At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 125MB peak: 125MB)
 
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jan 12 17:37:01 2022
+# Sun Jan 16 15:45:57 2022
 
 ###########################################################]
 
@@ -352,6 +357,6 @@ At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory
 Process took 0h:00m:01s realtime, 0h:00m:01s cputime
 
 Process completed successfully.
-# Wed Jan 12 17:37:01 2022
+# Sun Jan 16 15:45:57 2022
 
 ###########################################################]

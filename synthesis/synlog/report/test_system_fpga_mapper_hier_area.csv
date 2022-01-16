@@ -1,8 +1,7 @@
 
 . Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
-. test_system, 3, 0, 0, 0, 0, 0, 0, 1, 8
-.	. test_system_sb, 3, 0, 0, 0, 0, 0, 0, 1, 3
-.	.	. CoreResetP_Z1, 3, 0, 0, 0, 0, 0, 0, 0, 0
+. test_system, 0, 0, 0, 0, 0, 0, 0, 1, 8
+.	. test_system_sb, 0, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	. test_system_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
 .	.	. test_system_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 0, 0
-.	.	. test_system_sb_MSS, 0, 0, 0, 0, 0, 0, 0, 0, 3
+.	.	. test_system_sb_MSS, 0, 0, 0, 0, 0, 0, 0, 0, 0

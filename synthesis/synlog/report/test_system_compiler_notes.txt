@@ -12,7 +12,6 @@
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/Actel/SgCore/OSC/2.0.101/osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ in library work.
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/FABOSC_0/test_system_sb_FABOSC_0_OSC.v":5:7:5:33|Synthesizing module test_system_sb_FABOSC_0_OSC in library work.
 @N: CG364 :"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":720:7:720:14|Synthesizing module SYSRESET in library work.
-@N: CG364 :"/home/f4bjh/microsemi/Libero_SoC_v2021.3/SynplifyPro/lib/generic/smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF in library work.
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_010 in library work.
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb_MSS/test_system_sb_MSS.v":9:7:9:24|Synthesizing module test_system_sb_MSS in library work.
 @N: CG364 :"/home/f4bjh/devel/M2S010-MKR-KIT_FirstProj/component/work/test_system_sb/test_system_sb.v":9:7:9:20|Synthesizing module test_system_sb in library work.

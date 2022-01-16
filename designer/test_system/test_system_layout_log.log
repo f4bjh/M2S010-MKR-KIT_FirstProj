@@ -17,7 +17,7 @@ I/O Bank and Globals Assigner completed successfully.
 Total time spent in I/O Bank and Globals Assigner: 0 seconds
 
 Placer V5.0 - 2021.3.0
-Design: test_system                     Started: Wed Jan 12 17:42:29 2022
+Design: test_system                     Started: Sun Jan 16 15:48:22 2022
 
 Initializing Normal-Effort Standard Placement ...
 Clustering ...
@@ -33,21 +33,21 @@ Improvement              : 0 seconds
 Placer completed successfully.
 
 Design: test_system
-Finished: Wed Jan 12 17:42:31 2022
+Finished: Sun Jan 16 15:48:24 2022
 Total CPU Time:     00:00:02            Total Elapsed Time: 00:00:02
 Total Memory Usage: 544.1 Mbytes
                         o - o - o - o - o - o
 
 
 Router
-Design: test_system                     Started: Wed Jan 12 17:42:33 2022
+Design: test_system                     Started: Sun Jan 16 15:48:26 2022
 
 
 Router completed successfully.
 
 Design: test_system
-Finished: Wed Jan 12 17:42:37 2022
-Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Finished: Sun Jan 16 15:48:29 2022
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:03
 Total Memory Usage: 626.1 Mbytes
                         o - o - o - o - o - o
 
@@ -56,9 +56,9 @@ Resource Usage
 | Type          | Used | Total | Percentage |
 +---------------+------+-------+------------+
 | 4LUT          | 0    | 12084 | 0.00       |
-| DFF           | 3    | 12084 | 0.02       |
+| DFF           | 0    | 12084 | 0.00       |
 | I/O Register  | 0    | 246   | 0.00       |
-| Logic Element | 3    | 12084 | 0.02       |
+| Logic Element | 0    | 12084 | 0.00       |
 +---------------+------+-------+------------+
 
 I/O Placement

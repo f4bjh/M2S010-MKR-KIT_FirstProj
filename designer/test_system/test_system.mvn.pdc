@@ -8,14 +8,13 @@
 
 # Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: -1 
 
-# Date generated: Wed Jan 12 17:37:07 2022 
+# Date generated: Sun Jan 16 15:46:02 2022 
 
 
 #
 # IO banks setting
 #
 
-set_iobank Bank2 -vcci 2.50 -fixed no
 
 #
 # Local clock constraints
@@ -31,10 +30,6 @@ set_iobank Bank2 -vcci 2.50 -fixed no
 # I/O constraints
 #
 
-set_io DEVRST_N -DIRECTION INPUT -pinname 72
-set_io GPIO_5_OUT -DIRECTION OUTPUT -pinname 101 -fixed yes
-set_io GPIO_6_OUT -DIRECTION OUTPUT -pinname 102 -fixed yes
-set_io GPIO_7_OUT -DIRECTION OUTPUT -pinname 103 -fixed yes
 
 #
 # Core cell constraints
