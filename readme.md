@@ -10,12 +10,6 @@ This how to is based on : https://github.com/tstana/M2S010-MKR-KIT_FirstProj/wik
 but with with some troubleshooting...
 
 
-
-Two spaces at the end of a line  
-produce a line break.
-
-
-
 ---
 
 My system :
@@ -86,7 +80,6 @@ First lines of Licence.dat is now :
 
 also, set environnement variable as follows :  
 `$ export LM_LICENSE_FILE=~/microsemi/license/License.dat`  
-`$ ./lmgrd -c License.dat`  
 
 **3/Launch Libero :**  
 
@@ -99,8 +92,13 @@ https://github.com/tstana/M2S010-MKR-KIT_FirstProj/wiki
 ---
 
 I got an error due mismatching license during synthesis. Just quit Libero and re-launch License server   :  
-`$ ~/microsemi/license/lmdown -c License.dat -q`  
+Only Libero re-launch should be enough to pass, but if troubleshooting still persists : 
+
 `$ ~/microsemi/license/lmgrd -c License.dat`  
+`$ ~/microsemi/license/lmdown -c License.dat -q`  
+
+
+
 
 ---
 
